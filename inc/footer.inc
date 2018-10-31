@@ -8,5 +8,7 @@
 <a href="https://ccc.rochester.edu/organization/melioralaunchpad">Follow us on CCC</a>
 </ul>
 
+ <img src="images/urlogo.png" alt= "Logo of the University of Rochester">
+
 </footer>
 

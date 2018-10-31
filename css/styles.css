@@ -9,18 +9,17 @@ body{
     margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 50%;
     padding-bottom: 2%;
 
 }
 
 .is-current{
-    background-color:blue;
     color:white;
 }
 
 .navigation{
-    background-color: lightsteelblue;
+    background-color:cadetblue;
     /* list-style: none; */
     position: fixed;
     top:0;
@@ -28,12 +27,13 @@ body{
     margin-bottom: 2%;
     width:100%;
     /* padding-bottom: 15px; */
-    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+
+
 }
 
 .navigation ul li {
 display: inline-block;
-margin-left: 10%;
 }
 
 .navigation ul li a {
@@ -42,24 +42,32 @@ margin-left: 10%;
     /* color: black; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.navigation ul li a:hover{
+    font-weight:bold;
+    color:silver;
+
+
+}
 .navigation li img{
 position: relative;
 display: inline-block;
 width: 8%;  
 }
 .navigation li h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,cursive;
-    color: brown;
+    position: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
     /* position: relative; */
     display: inline-block;
     text-align: right;
-    margin-left: 15%;
-    /* float: right; */
+    margin-left: 10%;
+    margin-bottom: 10%;
     /* margin-right: 5%; */
-    font-size: 45px;
+    font-size: 53px;
     font-style: italic;
     font-stretch: expanded;
     text-decoration-style: wavy;
+
     }
     
 
@@ -71,6 +79,12 @@ width: 8%;
 
 }
 
+
+.home-grid-item{
+line-height: 2em;
+}
+
+
 .home-grid-item{
     background-color: rgba(255, 255, 255, 0.8);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
@@ -79,6 +93,8 @@ width: 8%;
     text-align: center;
     margin-right: 5%;
     border: solid;
+        box-shadow: 1px 1px 1px blue;
+    
 }
 
 #join h1{
@@ -92,6 +108,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     color: white;
     border: solid;
     border-color: black;
+    box-shadow: 4px 4px 4px dimgrey;
 
 }
 /* 
@@ -196,4 +213,8 @@ footer{
 footer ul a{
     font-size: 2em;
     color: seagreen;
+}
+
+footer img{
+    width:20%;
 }
