@@ -46,7 +46,6 @@
         <div class = "home-grid-item" id="join">
                 <h1> Interested in Entrepreneurship?</h1>
                 <h2> Lets get in touch!!!!</h2>
-                <button> Join Newsletter </button>
                 <form>
                         First name:<br>
                         <input type="text" name="firstname">
@@ -57,8 +56,10 @@
                         Email:<br>
                         <input type="text" email="email">
                         <br>
+                        <button> Join Newsletter </button>
+
                  </form>
-                      
+
 
             </div>
     
