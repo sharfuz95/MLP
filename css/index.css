@@ -1,0 +1,46 @@
+body{
+    background-color: bisque;
+
+}
+.center{
+}
+.center img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.navigation{
+    background-color: lightsteelblue;
+    list-style:none;
+    text-align:left;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.navigation li {
+display: inline-block;
+margin-left: 10%;
+}
+
+.navigation a {
+padding: 2%;
+font-size: 50px;
+color:black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navigation li img{
+position: relative;
+display: inline-block;
+width: 8%;  
+}
+/* .logo img{
+    position: relative;
+left:0;
+top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;  
+} */
