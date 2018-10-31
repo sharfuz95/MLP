@@ -10,16 +10,7 @@
 
 	<body>
 
-						<nav class="navigation">
-								<ul>
-									<li>
-									<img src="images/mlp_logo.png" alt= "club logo">
-										<a href="index.html">Home</a>
-										<a href="events.html">What We Do</a>
-									<h2> Entreprenurship at University of Rochester</h2>
-									</li>
-								</ul>
-							</nav>
+			    <?php include "inc/nav.inc"; ?>
 
 
 		<main>
@@ -41,7 +32,26 @@
 				<div class="event-grid-item-block">	
 					<h3>Details</h3>
 					<p>The April Social is a networking event for Entrepreneurs to meet students interested in participating in the Mark Ain Business Model Competition or the Forbes Entrepreneurial Competition. 
-						</p>
+					These two comeptitions are the biggest business competitions that are organized by the University of Rochester 
+					and are usually in the Spring. One of the biggest barriers to enter the competition is finding the right team.
+					That is why we organized this event in order to create networking opportunities so students can 
+					step out of their circles, meet new people and participate with some cool ideas. 
+</p>
+				
+					<html>
+					<head>
+						<meta charset="utf-8" />
+						<meta http-equiv="X-UA-Compatible" content="IE=edge">
+						<title>Page Title</title>
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+						<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+						<script src="main.js"></script>
+					</head>
+					<body>
+						
+					</body>
+					</html>		
+				</p>
 					<p> Date: April 11th, 2017 </p>
 					<p>Location: Welles Brown Room. </p>
 				
@@ -50,7 +60,8 @@
 				<div class="event-grid-item-block">
 
 					<h3>Experience</h3>
-					<p> Great networking event. Was really worth it. </p>
+					<p> "I had a really great time. Glad to see we have a proper entrepreneurship club now" - Sandesh Paudel</p>
+					<p> "It was great hearing about other students ideas. I found a team member and we are hoping to particiapte at the competitions" - Riley Barkles</p>
 				</div>
 
 </div>
@@ -85,8 +96,9 @@
 		<div class="event-grid-item-block">
 
 			<h3>Experience</h3>
-			<p> Great networking event. Was really worth it. </p>
-		</div>
+			<p> "Thanks to Meliora LaunchPad we got the dream launch event to our startup" - Max Wolf(Founder, Pollinate)</p>
+			<p> "I had no idea my peers were working on such cool startups. It definitely inspired me" - Zoli Bustamante</p>
+	</div>
 
 </div>
 
@@ -120,7 +132,9 @@
 		<div class="event-grid-item-block">
 
 			<h3>Experience</h3>
-			<p> Great networking event. Was really worth it. </p>
+			<p>"This is the biggest entrepreneurship related event I have ever seen on this school" - Noah Tyson</p>
+			<p>" Never thought there were so many students working on startups in our school. Got to meet some really cool people and Professor" - Connor Dyler</p>
+
 		</div>
 
 </div>
@@ -132,6 +146,7 @@
 			</section>
 		</main>
 
+        <?php include "inc/footer.inc"; ?>
 
 
 	<script src="http://code.jquery.com/jquery.js"></script>

@@ -9,16 +9,9 @@
 	</head>
 
 	<body>
-            <nav class="navigation">
-                    <ul>
-                        <li>
-                        <img src="images/mlp_logo.png" alt= "club logo">
-                            <a href="index.html">Home</a>
-                            <a href="events.html">What We Do</a>
-                        <h2> Entreprenurship at University of Rochester</h2>
-                        </li>
-                    </ul>
-                </nav>
+         
+    <?php include "inc/nav.inc"; ?>
+   
 
 		<div class="center">
             <img src="images/mlp-center.jpg" alt= "picture at harvard conference">
@@ -54,14 +47,26 @@
                 <h1> Interested in Entrepreneurship?</h1>
                 <h2> Lets get in touch!!!!</h2>
                 <button> Join Newsletter </button>
+                <form>
+                        First name:<br>
+                        <input type="text" name="firstname">
+                        <br>
+                        Last name:<br>
+                        <input type="text" name="lastname">
+                        <br>
+                        Email:<br>
+                        <input type="text" email="email">
+                        <br>
+                 </form>
+                      
 
             </div>
     
-
-
-
-   
     </div>
+
+
+        <?php include "inc/footer.inc"; ?>
+
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/menu-highlighter.js"></script>
