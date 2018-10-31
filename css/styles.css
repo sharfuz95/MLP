@@ -4,17 +4,21 @@ body{
 }
 
 .center img{
+    padding-top: 2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
+    padding-bottom: 2%;
+
 }
 
 .navigation{
     background-color: lightsteelblue;
-    list-style:none;
-    text-align:left;
-    padding-bottom: 15px;
+    /* list-style: none; */
+    text-align: left;
+    margin-bottom: 2%;
+    /* padding-bottom: 15px; */
     overflow: hidden;
 }
 
@@ -24,17 +28,31 @@ margin-left: 10%;
 }
 
 .navigation ul li a {
-padding: 2%;
-font-size: 50px;
-color:black;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    font-size: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navigation li img{
 position: relative;
 display: inline-block;
 width: 8%;  
 }
-
+.navigation li h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    /* position: relative; */
+    display: inline-block;
+    text-align: right;
+    margin-left: 15%;
+    /* float: right; */
+    /* margin-right: 5%; */
+    font-size: 30px;
+    font-style: italic;
+    font-stretch: expanded;
+    text-decoration-style: wavy;
+    }
+    
 
 .home-grid-container{
     display: inline-grid;
@@ -45,13 +63,24 @@ width: 8%;
 
 .home-grid-item{
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 50px;
     font-size: 15px;
     text-align: center;
     margin-right: 5%;
 
 }
+
+#join h1{
+    display: inline-block;
+    color:red;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* 
+#tagline{
+    font-family: sans-serif;
+    color:white;
+} */
 
 .button{
     
@@ -145,7 +174,7 @@ padding-left: 5%;
 } */
 
 /* img {
-    float: left;
+    float: Feve;
     display: inline;
     width: 40%;
 
