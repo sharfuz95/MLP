@@ -6,28 +6,24 @@
 		<meta charset="UTF-8">
 		<title>Past Events</title>
 		<link type="text/css" rel="stylesheet" href="css/styles.css">
-	</head>
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display" rel="stylesheet">
 
+	</head>
 	<body>
 
-			    <?php include "inc/nav.inc"; ?>
+	 <?php include "inc/nav.inc"; ?>
 
 
 		<main>
 
 				
 		<div class="event">
-				<div class="event-grid-item-block">
-				<h2>The April Social</h2>
+			
+		<div class="event-grid-item-block">
+			
+		<h2>The April Social</h2>
 					<img src="images/social.jpg" alt="A picture of Brandon">
-					
-				<div>
-					
-				</div>
-				<section class="basic">	
-					
-				</section>
-				</div>
+			</div>
 				
 				<div class="event-grid-item-block">	
 					<h3>Details</h3>
@@ -37,21 +33,8 @@
 					That is why we organized this event in order to create networking opportunities so students can 
 					step out of their circles, meet new people and participate with some cool ideas. 
 </p>
-				
-					<html>
-					<head>
-						<meta charset="utf-8" />
-						<meta http-equiv="X-UA-Compatible" content="IE=edge">
-						<title>Page Title</title>
-						<meta name="viewport" content="width=device-width, initial-scale=1">
-						<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-						<script src="main.js"></script>
-					</head>
-					<body>
-						
-					</body>
-					</html>		
-				</p>
+
+			
 					<p> Date: April 11th, 2017 </p>
 					<p>Location: Welles Brown Room. </p>
 				
@@ -140,10 +123,6 @@
 </div>
 
 
-
-
-</div>
-			</section>
 		</main>
 
         <?php include "inc/footer.inc"; ?>
@@ -151,7 +130,7 @@
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="js/menu-highlighter.js"></script>
-	</div>
+
 	</body>
 
 </html>

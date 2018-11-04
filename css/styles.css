@@ -1,3 +1,8 @@
+/* I pickd the font 'PT Serif', serif for normal text as I thought it is very clean and easy to read paragraphs with.
+I used 'Playfair Display', serif for all my <h> tags as I like the bold straight angle it has
+and It really captures attention.
+*/
+
 body{
     background-color: azure;
     line-height: 2em;
@@ -11,7 +16,6 @@ body{
     margin-right: auto;
     width: 50%;
     padding-bottom: 2%;
-
 }
 
 .is-current{
@@ -40,7 +44,8 @@ display: inline-block;
     margin-left: 2%;
     font-size: 30px;
     /* color: black; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
 }
 .navigation ul li a:hover{
     font-weight:bold;
@@ -55,7 +60,7 @@ width: 8%;
 }
 .navigation li h1{
     position: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: darkred;
     /* position: relative; */
     display: inline-block;
@@ -64,7 +69,6 @@ width: 8%;
     margin-bottom: 10%;
     /* margin-right: 5%; */
     font-size: 53px;
-    font-style: italic;
     font-stretch: expanded;
     text-decoration-style: wavy;
 
@@ -93,6 +97,7 @@ line-height: 2em;
     text-align: center;
     margin-right: 5%;
     border: solid;
+    font-family: 'PT Serif', serif;
         box-shadow: 1px 1px 1px blue;
     
 }
@@ -100,7 +105,7 @@ line-height: 2em;
 #join h1{
     display: inline-block;
 color: white;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Playfair Display', serif;
 }
 
 #join{
@@ -111,15 +116,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     box-shadow: 4px 4px 4px dimgrey;
 
 }
-/* 
-#tagline{
-    font-family: sans-serif;
-    color:white;
-} */
 
-.button{
-    
-}
 
 
 /*----------------------------------*/
@@ -131,20 +128,6 @@ body {
 
 
 
-/* img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    float:left;
-} */
-
-
-/* .title {
-    font-size: 40px;
-    text-align: left;
-}
- */
 
 
 .event {
@@ -162,22 +145,18 @@ body {
     border: solid;
     border-color: darkslateblue;
 }
-.event-grid-item-block h4{
-margin-left: 2%;
-padding-left: 5%;
+
+.event-grid-item-block h2{
+    font-family: 'Playfair Display', serif;
+}
+.event-grid-item-block h3{
+    font-family: 'Playfair Display', serif;
 }
 
-/* .basic{
-    padding-left: 2%;
-} */
+.event-grid-item-block p{
+    font-family: 'PT Serif', serif;
 
-/* img {
-    float: left;
-    display: inline;
-    width: 40%;
 }
- */
-
 
 .infoBlock {
     margin-top: -22px;

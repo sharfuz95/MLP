@@ -40,7 +40,8 @@ margin-left: 10%;
     /* padding: 2%; */
     font-size: 30px;
     /* color: black; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
+
     margin-left: 2%;
 }
 .navigation li img{
@@ -52,8 +53,9 @@ width: 8%;
 
 
 .navigation li h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
-    color: brown;
+    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
+   color: brown;
     /* position: relative; */
     display: inline-block;
     text-align: right;
@@ -91,7 +93,8 @@ width: 8%;
     line-height: 1.1em;
     margin-bottom: 5px;
 color: white;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 }
 
 #join{

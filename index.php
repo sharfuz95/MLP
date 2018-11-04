@@ -5,8 +5,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Meliora LaunchPad</title>
-		<link type="text/css" rel="stylesheet" href="css/styles.css">
-	</head>
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display" rel="stylesheet">
+</head>
 
 	<body>
          
@@ -54,7 +55,7 @@
                         <input type="text" name="lastname">
                         <br>
                         Email:<br>
-                        <input type="text" email="email">
+                        <input type="text" name="email">
                         <br>
                         <button> Join Newsletter </button>
 
